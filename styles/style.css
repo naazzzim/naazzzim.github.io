@@ -150,13 +150,16 @@ h1{
     position:absolute;
     bottom: 0;
     right: 0;
-    opacity: 35%;
+    opacity: 15%;
 }
 .intro-svg2{
     position:absolute;
     bottom: 0;
     right: -100px;
-    opacity: 35%;
+    opacity: 15%;
+}
+.justify{
+    text-align: justify;
 }
 a{
     color: rgb(227, 255, 150);
@@ -203,6 +206,9 @@ a{
 }
 #skill-list{
     list-style-image: url(../assets/images/icons8-chevron-right-20.png);
+}
+.skills>h2{
+    margin-bottom: 0;
 }
 .overlay2{
     z-index: 1;
